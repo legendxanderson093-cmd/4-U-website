@@ -1,0 +1,63 @@
+/* The entire webpage */
+
+body {
+    background-color: #fff0f5;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Our main content */
+
+.container {
+    background-color: white;
+    padding: 40px;
+
+    border-radius: 25px;
+    text-align: center;
+
+    width: 300px;
+
+    box-shadow: 0 8px 25px rgba(255, 105, 180, 0.2);
+}
+
+/*Main heading */
+
+h1{
+    color:#e75480;
+}
+
+/* Paragraph */
+
+p {
+    color: #777;
+    line-height: 1.6;
+}
+
+/*Button */
+
+button {
+    background-color: #ff8fab;
+    color: white;
+
+    border: none;
+    padding: 12px 25px;
+
+    border-radius: 30px;
+    cursor: pointer;
+
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+
+button:hover {
+    background-color: #e75480;
+    transform: scale(1.05);
+}

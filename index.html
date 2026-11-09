@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width,initial-scale=1.0">
+
+    <title>For You</title>
+
+    <link rel="stylesheet"
+    href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+    
+      <h1>Did you expect this?</h1>
+
+      <p> I made something special for you!💙</p>
+
+      <button onclick="showMessage()">Click me! </button>
+
+      <p id="secretMessage" style="display:none;">
+        Surprise! I missed you so I made this lol
+        
+    </div> 
+    <script>
+      function showMessage() {
+
+document.getElementById("secretMessage").style.display = "block";
+    }
+    </script>
+
+</body>
+</html>
